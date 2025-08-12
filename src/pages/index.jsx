@@ -209,7 +209,7 @@ export default function Home() {
             </Row>
           </Container>
         </section>
-        {/* section skills */}
+        {/* section services */}
         <section className="services py-5" id="services">
           <Container>
             <div className="text-center mt-4">
@@ -221,7 +221,7 @@ export default function Home() {
                 { emoji: "🎨", title: "UI/UX Design" },
                 { emoji: "📱", title: "Responsive Design" },
                 { emoji: "🛠️", title: "Backend (Laravel)" },
-                { emoji: "⚛️", title: "React / Development" },
+                { emoji: "⚛️", title: "React" },
                 { emoji: "🛒", title: "E-Commerce" },
                 { emoji: "📈", title: "SEO Optimization" },
                 { emoji: "🔗", title: "API Integration" },
