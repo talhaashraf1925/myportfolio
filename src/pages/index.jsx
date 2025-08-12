@@ -247,7 +247,7 @@ export default function Home() {
             </div>
             <Row className="gy-4 mt-4">
               {/* Project Card 1 */}
-              <Col lg={4}>
+              <Col lg={6}>
                 <div className="card p-2 h-100">
                   <div className="card-head">
                     <img
@@ -281,7 +281,7 @@ export default function Home() {
               </Col>
 
               {/* Project Card 2 */}
-              <Col lg={4}>
+              <Col lg={6}>
                 <div className="card p-2 h-100">
                   <div className="card-head">
                     <img
@@ -315,43 +315,8 @@ export default function Home() {
                 </div>
               </Col>
 
-              {/* Project Card 3 */}
-              <Col lg={4}>
-                <div className="card p-2 h-100">
-                  <div className="card-head">
-                    <img
-                      src="/image/project3.png"
-                      alt=""
-                      className="img-fluid rounded-2"
-                    />
-                  </div>
-                  <div className="card-body mt-5">
-                    <h4 className="fw-bold">Fruair</h4>
-                    <p>
-                      Fruair is a sleek and intuitive travel platform that
-                      blends AI-powered suggestions{" "}
-                      <Link href="/Detail-page?id=3">view more</Link>
-                    </p>
-                    <div className="mt-4">
-                      <a
-                        href="https://fruair.com/"
-                        target="_blank"
-                        className="text-decoration-none"
-                      >
-                        <button
-                          className="btn border text-white"
-                          style={{ background: "#03045E" }}
-                        >
-                          Online Demo
-                        </button>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </Col>
-
               {/* Project Card 4 */}
-              <Col lg={4}>
+              <Col lg={6}>
                 <div className="card p-2 h-100">
                   <div className="card-head">
                     <img
@@ -385,7 +350,7 @@ export default function Home() {
               </Col>
 
               {/* Project Card 5 */}
-              <Col lg={4}>
+              <Col lg={6}>
                 <div className="card p-2 h-100">
                   <div className="card-head">
                     <img
@@ -420,7 +385,7 @@ export default function Home() {
               </Col>
 
               {/* /* Project Card 6 */}
-              <Col lg={4}>
+              <Col lg={6}>
                 <div className="card p-2 h-100">
                   <div className="card-head">
                     <img
