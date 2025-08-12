@@ -385,7 +385,7 @@ export default function Home() {
               </Col>
 
               {/* /* Project Card 6 */}
-              <Col lg={6}>
+              {/* <Col lg={6}>
                 <div className="card p-2 h-100">
                   <div className="card-head">
                     <img
@@ -416,7 +416,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </section>
